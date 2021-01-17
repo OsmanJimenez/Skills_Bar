@@ -1,0 +1,137 @@
+body{
+    background-color: #151618;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card{
+    border-radius: 25px;
+    box-shadow: 0px 30px 52px -37px #2b7ac9;
+    border: 0px;
+    background-color: #292929;
+}
+
+/* ===== MAIN ===== */
+
+.main .contenedor{
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.main .trabajos{
+    padding: 60px 0;
+}
+
+.main .trabajos .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ===== CONOCIMIENTOS ===== */
+
+.conocimientos{
+    margin: 5%;
+}
+
+.container h2{
+    margin-bottom: 30px;
+}
+
+.container .skill{
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container .skill::before{
+    content: "";
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: absolute;
+    background-color: #3b3b3b;
+    bottom: 0;
+    border-radius: 25px;
+}
+
+.container .skill p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.container .skill .skill-bar{
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    animation: animated 1s both;
+    background: #0470DC;
+    right: 0;
+}
+
+.container .skill .skill-bar.skill1{
+    width: 70%;
+}
+
+.container .skill .skill-bar.skill2{
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill3{
+    width: 60%;
+}
+
+.container .skill .skill-bar.skill4{
+    width: 80%;
+}
+
+.container .skill .skill-bar.skill5{
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill6{
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill7{
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill8{
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill9{
+    width: 80%;
+}
+
+.container .skill .skill-bar.skill10{
+    width: 70%;
+}
+
+@keyframes animated{
+    from{
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to{
+        transform: matrix3d(0,0,0);
+    }
+}
