@@ -66,6 +66,15 @@ Skills_Bar/
 
 Este proyecto está licenciado bajo la [Licencia MIT](LICENSE), permitiendo su libre uso, modificación y distribución.
 
+## 👤 Autor
+
+**Osman Armando Jiménez Cortés**  
+[Portafolio profesional](https://osmanjimenez.com/)  
+[Perfil de GitHub](https://github.com/OsmanJimenez)
+
+Ingeniero de Sistemas y Desarrollador Full Stack especializado en desarrollo web y aplicaciones móviles.
+
+
 ---
 
 Repositorio en GitHub: [OsmanJimenez/Skills\_Bar](https://github.com/OsmanJimenez/Skills_Bar)
